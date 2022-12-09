@@ -1,3 +1,4 @@
+
 # OpenDatasets
 
 This is the place to find 💻 Machine Learning Datasets for training,
@@ -8,11 +9,8 @@ free datasets made available by various origanizations.
 
 ➡️Please follow the standard format while uploading your datasets.
 ➡️Please read official guide/paper and licensing before using any dataset regarding copyright and IP.
-
 # 👦Computer Vision
-
 ## 1.DigiFace1M
-
 ![DigiFace1M](https://microsoft.github.io/DigiFace1M/img/accessories_id2.jpg "DigiFace1M")
 
 The DigiFace-1M dataset is a collection of over one million diverse synthetic face images for face recognition.
@@ -28,7 +26,6 @@ The DigiFace-1M dataset can be used for non-commercial research, and is licensed
 https://github.com/microsoft/DigiFace1M
 
 ## 2.Wider Face
-
 ![WiderFace](https://res.cloudinary.com/dmzhcquzz/image/upload/v1670508878/intro1_bmwbuc.jpg "WiderFace")
 
 WIDER FACE dataset is a face detection benchmark dataset, of which images are selected from the publicly available WIDER dataset. We choose 32,203 images and label 393,703 faces with a high degree of variability in scale, pose and occlusion as depicted in the sample images. WIDER FACE dataset is organized based on 61 event classes. For each event class, we randomly select 40%/10%/50% data as training, validation and testing sets. We adopt the same evaluation metric employed in the PASCAL VOC dataset. Similar to MALF and Caltech datasets, we do not release bounding box ground truth for the test images. Users are required to submit final prediction files, which we shall proceed to evaluate.
@@ -37,8 +34,15 @@ WIDER FACE dataset is a face detection benchmark dataset, of which images are se
 
 ⬇️Available https://huggingface.co/datasets/wider_face/blob/main/data/WIDER_train.zip
 
-# 🈚Natural Language Processing
+## Cityscapes Dataset
+![Cityscapes](https://www.cityscapes-dataset.com/wordpress/wp-content/uploads/2015/07/stuttgart02-2040x500.png "Cityscape")
 
+The Cityscapes Dataset focuses on semantic understanding of urban street scenes. In the following, we give an overview on the design choices that were made to target the dataset’s focus.
+Labeled foreground objects must never have holes, i.e. if there is some background visible ‘through’ some foreground object, it is considered to be part of the foreground. This also applies to regions that are highly mixed with two or more classes: they are labeled with the foreground class. Examples: tree leaves in front of house or sky (everything tree), transparent car windows (everything car).
+
+🔗Source https://www.cityscapes-dataset.com/
+⬇️Available https://www.cityscapes-dataset.com/login/
+# 🈚Natural Language Processing
 ## 1.IMDB Movie Review Sentiment Classification
 
 ![Sentiment](https://res.cloudinary.com/dmzhcquzz/image/upload/v1670510524/imgonline-com-ua-twotoone-IqmeHa1xHPIxL_plbaby.jpg "sentiment analysis")
@@ -49,7 +53,8 @@ This is a dataset for binary sentiment classification containing substantially m
 
 ⬇️Available https://ai.stanford.edu/~amaas/data/sentiment/aclImdb_v1.tar.gz
 
-# ⌚Time Series
+# ⌚Time Series 
+
 
 ## Contributing
 
@@ -58,3 +63,4 @@ Contributions are always welcome!
 See `contributing.md` for ways to get started.
 
 Please adhere to this project's `code of conduct`.
+
